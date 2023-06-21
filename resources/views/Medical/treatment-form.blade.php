@@ -60,7 +60,7 @@
                       <label class="form-label" for="multicol-phone"> Rupees</label>
                       <input type="text" id="multicol-rupees" class="form-control phone-mask" placeholder="" aria-label="">
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-4">
                       <label class="form-label" for="multicol-username">In Words</label>
                       <input type="text" id="multicol-text" class="form-control" placeholder="five Thousand">
                     </div>
