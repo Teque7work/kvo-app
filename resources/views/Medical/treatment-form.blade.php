@@ -22,27 +22,31 @@
                 <form class="card-body">
                   
                   <div class="row g-3">
-                    <div class="col-md-6">
+                    <div class="col-md-4">
                       <label class="form-label" for="multicol-username">Patient Name</label>
                       <input type="text" id="multicol-username" class="form-control" placeholder="john.doe">
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-4">
                       <label class="form-label" for="multicol-phone"> Patient Phone No</label>
                       <input type="text" id="multicol-phone" class="form-control phone-mask" placeholder="658 799 8941" aria-label="658 799 8941">
+                    </div>
+                    <div class="col-md-4">
+                      <label class="form-label" for="multicol-first-name">Treatment</label>
+                      <input type="text" id="multicol-treatment-name" class="form-control" placeholder="">
                     </div>
                     <div class="col-12">
                         <label class="form-label" for="collapsible-address">Patient Address</label>
                         <textarea name="collapsible-address" class="form-control" id="collapsible-address" rows="2" placeholder="1456, Mall Road"></textarea>
                     </div>
-                    <div class="col-md-6">
-                      <label class="form-label" for="multicol-first-name">Treatment</label>
-                      <input type="text" id="multicol-treatment-name" class="form-control" placeholder="">
-                    </div>
-                    <div class="col-md-6">
+                    <div class="col-md-4">
                       <label class="form-label" for="multicol-last-name">Date</label>
                       <input type="text" id="multicol-last-name" class="form-control" placeholder="Doe">
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-4">
+                      <label class="form-label" for="multicol-username">Doctor Name</label>
+                      <input type="text" id="multicol-username" class="form-control" placeholder="Dr. Shah">
+                    </div>
+                    <div class="col-md-4">
                         <label class="form-label" for="formtabs-country">Payment Mode</label>
                         <div class="position-relative"><select id="formtabs-country" class="select2 form-select select2-hidden-accessible" data-allow-clear="true" data-select2-id="formtabs-country" tabindex="-1" aria-hidden="true">
                             <option value="" data-select2-id="11">Select</option>        
@@ -51,11 +55,8 @@
                             <option value="United States">Abc123</option></select>   
                         </div>
                     </div>
-                    <div class="col-md-6">
-                      <label class="form-label" for="multicol-username">Doctor Name</label>
-                      <input type="text" id="multicol-username" class="form-control" placeholder="Dr. Shah">
-                    </div>
-                    <div class="col-md-6">
+                    
+                    <div class="col-md-4">
                       <label class="form-label" for="multicol-phone"> Rupees</label>
                       <input type="text" id="multicol-rupees" class="form-control phone-mask" placeholder="" aria-label="">
                     </div>
