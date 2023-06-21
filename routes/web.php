@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\BookingController;
+use App\Http\Controllers\TreatmentController;
 
 
 /*
@@ -24,3 +25,6 @@ use App\Http\Controllers\BookingController;
 
 /* Room Booking Route */
 Route::get('/', [BookingController::class, 'RoomBooking'])->name('RoomBooking');
+
+/* Room Booking Route */
+Route::get('/treatment-form', [TreatmentController::class, 'TreatmentForm'])->name('TreatmentForm');
