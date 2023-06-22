@@ -6,7 +6,6 @@
 
   <link rel="stylesheet" href="{{ asset ('assets/vendor/libs/flatpickr/flatpickr.css') }}" />
 
-
 @endsection
 
 @section ('content')
@@ -15,7 +14,6 @@
     <!-- Layout wrapper -->
     <div class="layout-wrapper layout-navbar-full layout-horizontal layout-without-menu">
       <div class="layout-container">
-        
         
             @include('layouts.header')
 
@@ -69,7 +67,7 @@
                       <label class="form-label" for="multicol-username">In Words</label>
                       <input type="text" id="multicol-text" class="form-control" placeholder="five Thousand">
                     </div>
-                    <div class="col-8">
+                    <div class="col-12">
                       <label class="form-label" for="collapsible-address">Remark</label>
                       <textarea name="collapsible-remark" class="form-control" id="collapsible-remark" rows="2" placeholder="Hello,"></textarea>
                     </div>
