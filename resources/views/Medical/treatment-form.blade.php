@@ -42,8 +42,8 @@
                     </div>
                     <!-- Datetime Picker-->
                     <div class="col-md-4">
-                      <label for="flatpickr-datetime" class="form-label">Date</label>
-                      <input type="text" class="form-control" placeholder="DD-MM-YYYY HH:MM" id="flatpickr-datetime" />
+                      <label for="flatpickr-date" class="form-label">Date</label>
+                      <input type="text" class="form-control" placeholder="DD-MM-YYYY" id="flatpickr-date" />
                     </div>
                     <!-- /Datetime Picker-->                   
                     <div class="col-md-4">
@@ -60,9 +60,12 @@
                         </div>
                     </div>
                     <div class="col-md-4">
-                      <label class="form-label" for="multicol-phone"> Rupees</label>
-                      <input type="text" id="multicol-rupees" class="form-control phone-mask" placeholder="" aria-label="">
-                    </div>
+                            <label class="form-label" for="multicol-phone">Rupees</label>
+                            <div class="input-group">
+                              <span class="input-group-text">₹</span>
+                              <input type="number" class="form-control" placeholder="Amount" aria-label="Amount (to the nearest dollar)">
+                            </div>
+                          </div>
                     <div class="col-md-8">
                       <label class="form-label" for="multicol-username">In Words</label>
                       <input type="text" id="multicol-text" class="form-control" placeholder="five Thousand">
