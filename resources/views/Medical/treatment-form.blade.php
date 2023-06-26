@@ -30,7 +30,7 @@
                 <div class="content-header-left col-md-9 col-12 mb-2">
                     <div class="row breadcrumbs-top">
                         <div class="col-12">
-                          <h4 class="fw-bold py-3">Medical Treatment Donation</h4>
+                          <h4 class="fw-bold py-3">તબીબી સારવાર દાન</h4>
                         </div>
                     </div>
                 </div>
@@ -54,35 +54,35 @@
                 <form class="card-body">  
                   <div class="row g-3">
                   <div class="col-md-4">
-                      <label class="form-label" for="multicol-phone">Receipt No.</label>
+                      <label class="form-label" for="multicol-phone">રશીદ નં </label>
                       <input type="number" id="multicol-number" class="form-control phone-mask" placeholder="123.." aria-label="658 799 8941">
                     </div>
                     <div class="col-md-4">
-                      <label class="form-label" for="multicol-username">Patient Name</label>
+                      <label class="form-label" for="multicol-username">દર્દીનું નામ </label>
                       <input type="text" id="multicol-username" class="form-control" placeholder="john.doe">
                     </div>
                     <div class="col-md-4">
-                      <label class="form-label" for="multicol-phone"> Patient Phone No</label>
+                      <label class="form-label" for="multicol-phone">દર્દીના મોબાઇલ નં </label>
                       <input type="number" id="multicol-phone" class="form-control phone-mask" placeholder="658 799 8941" aria-label="658 799 8941">
                     </div>
                     <div class="col-md-4">
-                      <label for="flatpickr-date" class="form-label">Date</label>
+                      <label for="flatpickr-date" class="form-label">તારીખ </label>
                       <input type="text" class="form-control" placeholder="DD-MM-YYYY" id="flatpickr-date" />
                     </div>
                     <div class="col-md-4">
-                      <label class="form-label" for="multicol-username">Doctor Name</label>
+                      <label class="form-label" for="multicol-username">ડોક્ટરનું નામ </label>
                       <input type="text" id="multicol-username" class="form-control" placeholder="Dr. Shah">
                     </div>
                     <div class="col-md-4">
-                      <label class="form-label" for="multicol-username">City Name</label>
+                      <label class="form-label" for="multicol-username">ગામનું નામ </label>
                       <input type="text" id="multicol-username" class="form-control" placeholder="ex. bhuj">
                     </div>
                     <div class="col-md-4">
-                      <label class="form-label" for="collapsible-address">Remark</label>
+                      <label class="form-label" for="collapsible-address">વિશેષ નોંધ </label>
                       <textarea name="collapsible-remark" class="form-control" id="collapsible-remark" rows="1" placeholder="Hello,"></textarea>
                     </div>
                     <div class="col-md-4">
-                            <label class="form-label" for="multicol-phone">Rupees</label>
+                            <label class="form-label" for="multicol-phone">રૂપિયા </label>
                             <div class="input-group">
                               <span class="input-group-text">₹</span>
                               <input type="text" id="Text1" class="form-control" placeholder="Amount" aria-label="Amount (to the nearest dollar)"
@@ -91,7 +91,7 @@
                           </div>
                           {{-- <div id="divDisplayWords"> --}}
                           <div class="col-md-4">
-                            <label class="form-label" for="basic-default-name">In Words</label>
+                            <label class="form-label" for="basic-default-name">શબ્દોમાં </label>
                             <input
                               type="text"
                               class="form-control"
@@ -101,7 +101,7 @@
                               required readonly/>
                           </div>
                           <div class="col-md-4">
-                            <label class="d-block form-label">Payment Mode</label>
+                            <label class="d-block form-label">નાણા મળેલ</label>
                             <div class="form-check form-check-inline mb-2">
                               <input
                                 type="radio"
@@ -109,7 +109,7 @@
                                 name="basic-default-radio"
                                 class="form-check-input"
                                 required />
-                              <label class="form-check-label" for="basic-default-radio">Cheque</label>
+                              <label class="form-check-label" for="basic-default-radio">ચેક </label>
                             </div>
                             <div class="form-check form-check-inline">
                               <input
@@ -118,7 +118,7 @@
                                 name="basic-default-radio"
                                 class="form-check-input"
                                 required />
-                              <label class="form-check-label" for="basic-default-radio">Draft</label>
+                              <label class="form-check-label" for="basic-default-radio">ડ્રાફ્ટ </label>
                             </div>
                             <div class="form-check form-check-inline">
                               <input
@@ -127,7 +127,7 @@
                                 name="basic-default-radio"
                                 class="form-check-input"
                                 required />
-                              <label class="form-check-label" for="basic-default-radio">Case</label>
+                              <label class="form-check-label" for="basic-default-radio">રોકડા </label>
                             </div>
                             <div class="form-check form-check-inline">
                               <input
