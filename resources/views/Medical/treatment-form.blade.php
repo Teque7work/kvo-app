@@ -4,9 +4,10 @@
 
 @section('pagecss')
 
-  
+  <!-- Vendors CSS -->
   <link rel="stylesheet" href="{{ asset ('assets/vendor/libs/flatpickr/flatpickr.css') }}" />
-  
+
+  <!-- Page CSS --> 
   <style>
 .form-label {
     font-weight: bold;
@@ -38,18 +39,38 @@
                     <div class="form-group breadcrumb-right py-3">
                       <!-- Enable backdrop (default) Offcanvas -->
                       <div class="mt-0">
-                        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBackdrop" aria-controls="offcanvasBackdrop">
-                          <span class="ti-xs ti ti-plus me-1"></span>Add New User </button>
-                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasBackdrop" aria-labelledby="offcanvasBackdropLabel">
+                        <button
+                          class="btn btn-primary"
+                          type="button"
+                          data-bs-toggle="offcanvas"
+                          data-bs-target="#offcanvasBackdrop"
+                          aria-controls="offcanvasBackdrop">
+                          <span class="ti-xs ti ti-plus me-1"></span>Add New User
+                        </button>
+                        <div
+                          class="offcanvas offcanvas-end"
+                          tabindex="-1"
+                          id="offcanvasBackdrop"
+                          aria-labelledby="offcanvasBackdropLabel">
                           <div class="offcanvas-header border-bottom">
                             <h5 id="offcanvasBackdropLabel" class="offcanvas-title">New User</h5>
-                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            <button
+                              type="button"
+                              class="btn-close text-reset"
+                              data-bs-dismiss="offcanvas"
+                              aria-label="Close"></button>
+                          </div>
+                          <div class="offcanvas-body mx-0 flex-grow-0">
+                            <!-- Browser Default -->
+                            @include('layouts.adduser')
+                            <!-- /Browser Default -->
                           </div>
                         </div>
                       </div>
                     </div>
                 </div>
               </div>
+              
               <div class="card mb-4">
                 <form class="card-body">  
                   <div class="row g-3">
@@ -59,7 +80,7 @@
                     </div>
                     <div class="col-md-4">
                       <label class="form-label" for="multicol-username">દર્દીનું નામ </label>
-                      <input type="text" id="multicol-username" class="form-control" placeholder="john.doe">
+                      <input type="text" id="multicol-username" class="form-control" placeholder="Abc..">
                     </div>
                     <div class="col-md-4">
                       <label class="form-label" for="multicol-phone">દર્દીના મોબાઇલ નં </label>
@@ -82,33 +103,22 @@
                       <textarea name="collapsible-remark" class="form-control" id="collapsible-remark" rows="1" placeholder="Hello,"></textarea>
                     </div>
                     <div class="col-md-4">
-                            <label class="form-label" for="multicol-phone">રૂપિયા </label>
-                            <div class="input-group">
-                              <span class="input-group-text">₹</span>
-                              <input type="text" id="Text1" class="form-control" placeholder="Amount" aria-label="Amount (to the nearest dollar)"
-                              onkeypress="return onlyNumbers(this.value);" onkeyup="NumToWord(this.value,'ankers');" maxlength="9">
-                            </div>
-                          </div>
+                      <label class="form-label" for="multicol-phone">રૂપિયા </label>
+                      <div class="input-group">
+                        <span class="input-group-text">₹</span>
+                        <input type="text" id="Text1" class="form-control" placeholder="Amount" aria-label="Amount (to the nearest dollar)"
+                          onkeypress="return onlyNumbers(this.value);" onkeyup="NumToWord(this.value,'ankers');" maxlength="9">
+                      </div>
+                    </div>
                           {{-- <div id="divDisplayWords"> --}}
-                          <div class="col-md-4">
-                            <label class="form-label" for="basic-default-name">શબ્દોમાં </label>
-                            <input
-                              type="text"
-                              class="form-control"
-                              id="ankers"
-                              value=""
-                              {{-- placeholder="Words" --}}
-                              required readonly/>
+                    <div class="col-md-4">
+                      <label class="form-label" for="basic-default-name">શબ્દોમાં </label>
+                            <input type="text" class="form-control" id="ankers" value="" {{-- placeholder="Words" --}} required readonly/>
                           </div>
                           <div class="col-md-4">
                             <label class="d-block form-label">નાણા મળેલ</label>
                             <div class="form-check form-check-inline mb-2">
-                              <input
-                                type="radio"
-                                id="basic-default-radio-male"
-                                name="basic-default-radio"
-                                class="form-check-input"
-                                required />
+                              <input type="radio" id="basic-default-radio-male" name="basic-default-radio" class="form-check-input" required />
                               <label class="form-check-label" for="basic-default-radio">ચેક </label>
                             </div>
                             <div class="form-check form-check-inline">
@@ -142,7 +152,7 @@
                   </div>
                   <div class="pt-4">
                     <button type="submit" class="btn btn-primary me-sm-3 me-1 waves-effect waves-light">Submit</button>
-                    <button type="reset" class="btn btn-label-secondary waves-effect">Cancel</button>
+                    <!-- <button type="reset" class="btn btn-label-secondary waves-effect">Cancel</button> -->
                   </div>
                 </form>
               </div>
