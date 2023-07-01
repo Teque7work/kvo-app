@@ -39,26 +39,12 @@
                     <div class="form-group breadcrumb-right py-3">
                       <!-- Enable backdrop (default) Offcanvas -->
                       <div class="mt-0">
-                        <button
-                          class="btn btn-primary"
-                          type="button"
-                          data-bs-toggle="offcanvas"
-                          data-bs-target="#offcanvasBackdrop"
-                          aria-controls="offcanvasBackdrop">
-                          <span class="ti-xs ti ti-plus me-1"></span>Add New User
-                        </button>
-                        <div
-                          class="offcanvas offcanvas-end"
-                          tabindex="-1"
-                          id="offcanvasBackdrop"
-                          aria-labelledby="offcanvasBackdropLabel">
+                        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBackdrop" aria-controls="offcanvasBackdrop">
+                          <span class="ti-xs ti ti-plus me-1"></span>Add Member </button>
+                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasBackdrop" aria-labelledby="offcanvasBackdropLabel">
                           <div class="offcanvas-header border-bottom">
-                            <h5 id="offcanvasBackdropLabel" class="offcanvas-title">New User</h5>
-                            <button
-                              type="button"
-                              class="btn-close text-reset"
-                              data-bs-dismiss="offcanvas"
-                              aria-label="Close"></button>
+                            <h5 id="offcanvasBackdropLabel" class="offcanvas-title">New Member</h5>
+                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                           </div>
                           <div class="offcanvas-body mx-0 flex-grow-0">
                             <!-- Browser Default -->

@@ -5,7 +5,7 @@
         type="text"
         class="form-control"
         id="basic-default-name"
-        placeholder="John Doe"
+        placeholder="Abc.."
         required />
     </div>
 
@@ -25,7 +25,7 @@
         type="email"
         id="basic-default-email"
         class="form-control"
-        placeholder="john.doe"
+        placeholder="Abc123@gmail.com"
         required />
     </div>
 
