@@ -99,42 +99,27 @@
                           {{-- <div id="divDisplayWords"> --}}
                     <div class="col-md-4">
                       <label class="form-label" for="basic-default-name">શબ્દોમાં </label>
-                            <input type="text" class="form-control" id="ankers" value="" {{-- placeholder="Words" --}} required readonly/>
-                          </div>
-                          <div class="col-md-4">
-                            <label class="d-block form-label">નાણા મળેલ</label>
-                            <div class="form-check form-check-inline mb-2">
-                              <input type="radio" id="basic-default-radio-male" name="basic-default-radio" class="form-check-input" required />
-                              <label class="form-check-label" for="basic-default-radio">ચેક </label>
-                            </div>
-                            <div class="form-check form-check-inline">
-                              <input
-                                type="radio"
-                                id="basic-default-radio-female"
-                                name="basic-default-radio"
-                                class="form-check-input"
-                                required />
-                              <label class="form-check-label" for="basic-default-radio">ડ્રાફ્ટ </label>
-                            </div>
-                            <div class="form-check form-check-inline">
-                              <input
-                                type="radio"
-                                id="basic-default-radio-female"
-                                name="basic-default-radio"
-                                class="form-check-input"
-                                required />
-                              <label class="form-check-label" for="basic-default-radio">રોકડા </label>
-                            </div>
-                            <div class="form-check form-check-inline">
-                              <input
-                                type="radio"
-                                id="basic-default-radio-female"
-                                name="basic-default-radio"
-                                class="form-check-input"
-                                required />
-                              <label class="form-check-label" for="basic-default-radio">UPI</label>
-                            </div>
-                          </div>
+                      <input type="text" class="form-control" id="ankers" value="" {{-- placeholder="Words" --}} required readonly/>
+                    </div>
+                    <div class="col-md-4">
+                        <label class="d-block form-label">નાણા મળેલ</label>
+                      <div class="form-check form-check-inline mb-2">
+                        <input type="radio" id="basic-default-radio-male" name="basic-default-radio" class="form-check-input" required />
+                        <label class="form-check-label" for="basic-default-radio">ચેક </label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input type="radio" id="basic-default-radio-female" name="basic-default-radio" class="form-check-input" required />
+                        <label class="form-check-label" for="basic-default-radio">ડ્રાફ્ટ </label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input type="radio" id="basic-default-radio-female" name="basic-default-radio" class="form-check-input" required />
+                        <label class="form-check-label" for="basic-default-radio">રોકડા </label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input type="radio" id="basic-default-radio-female" name="basic-default-radio" class="form-check-input" required />
+                        <label class="form-check-label" for="basic-default-radio">UPI</label>
+                      </div>
+                    </div>
                   </div>
                   <div class="pt-4">
                     <button type="submit" class="btn btn-primary me-sm-3 me-1 waves-effect waves-light">Submit</button>
