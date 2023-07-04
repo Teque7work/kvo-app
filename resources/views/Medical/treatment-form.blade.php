@@ -96,7 +96,7 @@
                           onkeypress="return onlyNumbers(this.value);" onkeyup="NumToWord(this.value,'ankers');" maxlength="9">
                       </div>
                     </div>
-                          {{-- <div id="divDisplayWords"> --}}
+                          <!-- {{-- <div id="divDisplayWords"> --}} -->
                     <div class="col-md-4">
                       <label class="form-label" for="basic-default-name">શબ્દોમાં </label>
                       <input type="text" class="form-control" id="ankers" value="" {{-- placeholder="Words" --}} required readonly/>
