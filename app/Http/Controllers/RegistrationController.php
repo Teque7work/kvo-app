@@ -8,6 +8,6 @@ class RegistrationController extends Controller
 {
     // Registration Controller 
     public function RegistrationForm(){
-        return view ('Auth.Registration-Form');
+        return view ('Auth.registration-form');
     }
 }
