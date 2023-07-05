@@ -4,6 +4,8 @@ use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\BookingController;
 use App\Http\Controllers\TreatmentController;
+use App\Http\Controllers\RegistrationController;
+use App\Http\Controllers\AuthController;
 
 
 /*
@@ -26,5 +28,11 @@ use App\Http\Controllers\TreatmentController;
 /* Room Booking Route */
 Route::get('/', [BookingController::class, 'RoomBooking'])->name('RoomBooking');
 
-/* Room Booking Route */
+/* TreatmentController Route */
 Route::get('/treatment-form', [TreatmentController::class, 'TreatmentForm'])->name('TreatmentForm');
+
+/* Auth RegistrationController Route */
+Route::get('/registration-form', [RegistrationController::class, 'RegistrationForm'])->name('RegistrationForm');
+
+/* Auth Login Route */
+Route::get('/login', [AuthController::class, 'LoginUser'])->name('LoginUser');
