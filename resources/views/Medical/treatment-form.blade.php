@@ -60,7 +60,7 @@
               <div class="card mb-4">
                 <form class="card-body">  
                   <div class="row g-3">
-                  <div class="col-md-4">
+                    <div class="col-md-4">
                       <label class="form-label" for="multicol-phone">રશીદ નં </label>
                       <input type="number" id="multicol-number" class="form-control phone-mask" placeholder="123.." aria-label="658 799 8941">
                     </div>
