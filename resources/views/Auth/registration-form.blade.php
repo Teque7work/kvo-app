@@ -70,19 +70,17 @@
 
             <form id="formAuthentication" class="mb-3" action="index.html" method="POST">
               <div class="mb-3">
-                <label for="username" class="form-label">Name</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="username"
-                  name="username"
-                  placeholder="Enter your Name"
-                   />
+                <label for="username" class="form-label">First Name</label>
+                <input type="text" class="form-control" id="username" name="username" placeholder="Enter your First Name" />
               </div>
               <div class="mb-3">
+                <label for="username" class="form-label">Last Name</label>
+                <input type="text" class="form-control" id="username" name="username" placeholder="Enter your Last Name" />
+              </div>
+              <!-- <div class="mb-3">
                 <label for="email" class="form-label">Email</label>
                 <input type="text" class="form-control" id="email" name="email" placeholder="Enter your email" />
-              </div>
+              </div> -->
               <div class="mb-3">
                 <label for="number" class="form-label">Phone Number</label>
                 <input type="text" class="form-control" id="number" name="number" placeholder="Enter your phone number" />
@@ -90,10 +88,7 @@
               <div class="mb-3 form-password-toggle">
                 <label class="form-label" for="password">Password</label>
                 <div class="input-group input-group-merge">
-                  <input
-                    type="password"
-                    id="password"
-                    class="form-control"
+                  <input type="password" id="password" class="form-control"
                     name="password"
                     placeholder="&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;"
                     aria-describedby="password" />
