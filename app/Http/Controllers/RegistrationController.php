@@ -10,4 +10,5 @@ class RegistrationController extends Controller
     public function RegistrationForm(){
         return view ('Auth.registration-form');
     }
+
 }

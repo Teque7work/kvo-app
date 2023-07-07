@@ -9,7 +9,7 @@ use App\Http\Controllers\AuthController;
 
 
 /*
-|--------------------------------------------------------------------------
+|---------------------------s-----------------------------------------------
 | Web Routes
 |--------------------------------------------------------------------------
 |
@@ -31,8 +31,8 @@ Route::get('/', [BookingController::class, 'RoomBooking'])->name('RoomBooking');
 /* TreatmentController Route */
 Route::get('/treatment-form', [TreatmentController::class, 'TreatmentForm'])->name('TreatmentForm');
 
-/* Auth RegistrationController Route */
-Route::get('/registration-form', [RegistrationController::class, 'RegistrationForm'])->name('RegistrationForm');
+/* Auth Registration Controller Route */
+Route::get('/Registration-Form', [RegistrationController::class, 'RegistrationForm'])->name('RegistrationForm');
 
 /* Auth Login Route */
 Route::get('/login', [AuthController::class, 'LoginUser'])->name('LoginUser');
