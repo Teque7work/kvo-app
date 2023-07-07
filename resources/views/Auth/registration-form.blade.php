@@ -92,7 +92,6 @@
                   <span class="input-group-text cursor-pointer"><i class="ti ti-eye-off"></i></span>
                 </div>
               </div>
-
               <div class="mb-3">
                 <div class="form-check">
                   <input class="form-check-input" type="checkbox" id="terms-conditions" name="terms" />
@@ -104,7 +103,6 @@
               </div>
               <button class="btn btn-primary d-grid w-100">Sign up</button>
             </form>
-
             <p class="text-center">
               <span>Already have an account?</span>
               <a href="auth-login-cover.html">
