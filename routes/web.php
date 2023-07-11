@@ -32,7 +32,7 @@ Route::get('/', [BookingController::class, 'RoomBooking'])->name('RoomBooking');
 Route::get('/treatment-form', [TreatmentController::class, 'TreatmentForm'])->name('TreatmentForm');
 
 /* Auth Registration Controller Route */
-Route::get('/Registration-Form', [RegistrationController::class, 'RegistrationForm'])->name('RegistrationForm');
+Route::get('/registration-form', [RegistrationController::class, 'RegistrationForm'])->name('RegistrationForm');
 
 /* Auth Login Route */
 Route::get('/login', [AuthController::class, 'LoginUser'])->name('LoginUser');
