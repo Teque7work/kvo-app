@@ -83,7 +83,7 @@
               </div> -->
               <div class="mb-3">
                 <label for="number" class="form-label">Phone Number</label>
-                <input type="text" class="form-control" id="number" name="number" placeholder="Enter your phone number" />
+                <input type="number" class="form-control" id="number" name="number" placeholder="Enter your phone number" />
               </div>
               <div class="mb-3 form-password-toggle">
                 <label class="form-label" for="password">Password</label>
