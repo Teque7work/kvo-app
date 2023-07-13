@@ -116,7 +116,6 @@
       </div>
     </div>
 
-    
     <!-- / Content -->
 
 @endsection
